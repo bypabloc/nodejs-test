@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bypabloc/nodejs-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bypabloc/nodejs-test/issues"
+  },
+  "homepage": "https://github.com/bypabloc/nodejs-test#readme",
+  "devDependencies": {
+    "jest": "28.1.2",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
